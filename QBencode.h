@@ -2,7 +2,9 @@
 
 #include <QObject>
 
+extern "C" {
 #include "heapless-bencode/bencode.h"
+}
 
 class QBencode : public QObject
 {

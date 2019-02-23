@@ -1,5 +1,7 @@
 TEMPLATE = lib
-CONFIG += c++14 staticlib
+CONFIG += dll
+
+QT -= gui
 
 QMAKE_CFLAGS += -std=c99
 
